@@ -1,0 +1,135 @@
+{
+    "files.associations": {
+        "*.config": "editorconfig"
+    },
+    "prolog.executablePath": "/opt/homebrew/bin/swipl",
+    "editor.fontSize": 14.5,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3.11",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 14,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night Storm]": {
+            "foreground": "#959cbd",
+            "editor.background": "#222436", // bg
+            "editor.foreground": "#c8d3f5",
+            "panelTitle.activeBorder": "#3d59a1",
+            "panelTitle.activeForeground": "#bdc7f0",
+            "panelTitle.inactiveForeground": "#959cbd",
+            "tab.activeForeground": "#bdc7f0",
+            "tab.inactiveForeground": "#959cbd",
+            "breadcrumb.foreground": "#959cbd",
+            "breadcrumb.focusForeground": "#bdc7f0",
+            "breadcrumb.activeSelectionForeground": "#bdc7f0",
+            "statusBar.foreground": "#bdc7f0",
+            "list.focusForeground": "#bdc7f0",
+            "list.hoverForeground": "#bdc7f0",
+            "list.activeSelectionForeground": "#bdc7f0",
+            "list.inactiveSelectionForeground": "#bdc7f0",
+            "list.inactiveSelectionBackground": "#202330",
+            "sideBar.foreground": "#959cbd",
+            "dropdown.foreground": "#959cbd",
+            "menu.foreground": "#bdc7f0",
+            "menubar.selectionForeground": "#bdc7f0",
+            "input.foreground": "#959cbd",
+            "input.placeholderForeground": "#959cbd",
+            "activityBar.foreground": "#bdc7f0",
+            "activityBar.inactiveForeground": "#787c99",
+            "gitDecoration.ignoredResourceForeground": "#696d87",
+            "editorCodeLens.foreground": "#7982a9",
+            "terminal.ansiBlack": "#1e2030", // bg_dark
+            "terminal.ansiRed": "#ff757f", // red
+            "terminal.ansiGreen": "#c3e88d", // green
+            "terminal.ansiYellow": "#ffc777", // yellow
+            "terminal.ansiBlue": "#82aaff", // blue
+            "terminal.ansiMagenta": "#c099ff", // magenta
+            "terminal.ansiCyan": "#86e1fc", // cyan
+            "terminal.ansiWhite": "#c8d3f5", // fg
+            "terminal.ansiBrightBlack": "#444a73", // terminal_black
+            "terminal.ansiBrightRed": "#c53b53", // red1
+            "terminal.ansiBrightGreen": "#4fd6be", // green1
+            "terminal.ansiBrightYellow": "#ffc777", // yellow
+            "terminal.ansiBrightBlue": "#3e68d7", // blue0
+            "terminal.ansiBrightMagenta": "#fca7ea", // purple
+            "terminal.ansiBrightCyan": "#b4f9f8", // blue6
+            "terminal.ansiBrightWhite": "#ffffff",
+        },
+        "editor.tokenColorCustomizations": {
+            "comments": "#7a88cf", // Comment color
+            "strings": "#c3e88d", // String color (green)
+            "keywords": "#fca7ea", // Keyword color (purple)
+            "variables": "#ffc777", // Variable color (yellow)
+            "functions": "#82aaff", // Function color (blue)
+            "constants": "#ff966c", // Constant color (orange)
+            "types": "#ff79c6", // Type color (magenta)
+            "punctuation": "#c099ff", // Punctuation color (magenta)
+            "textMateRules": [
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#7a88cf",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "string",
+                    "settings": {
+                        "foreground": "#c3e88d"
+                    }
+                },
+                {
+                    "scope": "keyword",
+                    "settings": {
+                        "foreground": "#fca7ea"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable",
+                        "parameter"
+                    ],
+                    "settings": {
+                        "foreground": "#ffc777"
+                    }
+                },
+                {
+                    "scope": "function",
+                    "settings": {
+                        "foreground": "#82aaff"
+                    }
+                },
+                {
+                    "scope": "constant",
+                    "settings": {
+                        "foreground": "#ff966c"
+                    }
+                },
+                {
+                    "scope": "type",
+                    "settings": {
+                        "foreground": "#ff79c6"
+                    }
+                },
+                {
+                    "scope": "punctuation",
+                    "settings": {
+                        "foreground": "#c099ff"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+}
