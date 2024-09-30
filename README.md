@@ -1,33 +1,4 @@
-Main extensions:
-
-13xforever.language-x86-64-assembly
-charliermarsh.ruff
-enkia.tokyo-night
-james-yu.latex-workshop
-ms-azuretools.vscode-docker
-ms-python.debugpy
-ms-python.python
-ms-python.vscode-pylance
-ms-toolsai.jupyter
-ms-toolsai.jupyter-keymap
-ms-toolsai.jupyter-renderers
-ms-toolsai.vscode-jupyter-cell-tags
-ms-toolsai.vscode-jupyter-slideshow
-ms-vscode-remote.remote-containers
-ms-vscode-remote.remote-ssh
-ms-vscode-remote.remote-ssh-edit
-ms-vscode-remote.remote-wsl
-ms-vscode.cmake-tools
-ms-vscode.cpptools
-ms-vscode.cpptools-extension-pack
-ms-vscode.cpptools-themes
-ms-vscode.makefile-tools
-ms-vscode.remote-explorer
-naumovs.color-highlight
-njpwerner.autodocstring
-pkief.material-icon-theme
-scala-lang.scala
-twxs.cmake
-visualstudioexptteam.intellicode-api-usage-examples
-visualstudioexptteam.vscodeintellicode
-vscodevim.vim
+## VSCode Config
+- Modified Tokyo Night Storm theme based on the "Tokyo Night Moon" Neovim theme: https://github.com/folke/tokyonight.nvim
+- Basic vim keybindings modifications
+- Extensions
