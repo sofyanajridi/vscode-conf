@@ -3,7 +3,7 @@
         "*.config": "editorconfig"
     },
     "prolog.executablePath": "/opt/homebrew/bin/swipl",
-    "editor.fontSize": 14.5,
+    "editor.fontSize": 15,
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "git.autofetch": true,
@@ -40,6 +40,8 @@
             "list.inactiveSelectionForeground": "#bdc7f0",
             "list.inactiveSelectionBackground": "#202330",
             "sideBar.foreground": "#959cbd",
+            "activityBar.background": "#1e2030",
+            "sideBar.background": "#1e2030",
             "dropdown.foreground": "#959cbd",
             "menu.foreground": "#bdc7f0",
             "menubar.selectionForeground": "#bdc7f0",
@@ -131,5 +133,26 @@
             ]
         }
     },
-    "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "ctrl+p"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "ctrl+b"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ],
+            "silent": true
+        }
+    ],
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
 }
