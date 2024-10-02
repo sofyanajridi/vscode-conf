@@ -3,7 +3,7 @@
         "*.config": "editorconfig"
     },
     "prolog.executablePath": "/opt/homebrew/bin/swipl",
-    "editor.fontSize": 15,
+    "editor.fontSize": 14.5,
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "git.autofetch": true,
@@ -42,6 +42,25 @@
             "sideBar.foreground": "#959cbd",
             "activityBar.background": "#1e2030",
             "sideBar.background": "#1e2030",
+            "activityBar.border": "#1e2030",
+            "sideBarSectionHeader.background": "#1e2030",
+            "editorGroupHeader.tabsBackground": "#1e2030",
+            "editorGroupHeader.noTabsBackground": "#1e2030",
+            "editorPane.background": "#1e2030",
+            "editorWidget.background": "#1e2030",
+            "breadcrumb.background": "#1e2030",
+            "breadcrumbPicker.background": "#1e2030",
+            "tab.inactiveBackground": "#1e2030",
+            "tab.selectedBackground": "#1e2030",
+            "panel.background": "#1e2030",
+            "statusBar.background": "#1e2030",
+            "titleBar.activeBackground": "#1e2030",
+            "titleBar.inactiveBackground": "#1e2030",
+            "walkThrough.embeddedEditorBackground": "#1e2030",
+            "textBlockQuote.background": "#1e2030",
+            "terminal.background": "#1e2030",
+            "notebook.cellEditorBackground": "#1e2030",
+            "menu.background": "#1e2030",
             "dropdown.foreground": "#959cbd",
             "menu.foreground": "#bdc7f0",
             "menubar.selectionForeground": "#bdc7f0",
@@ -67,6 +86,8 @@
             "terminal.ansiBrightMagenta": "#fca7ea", // purple
             "terminal.ansiBrightCyan": "#b4f9f8", // blue6
             "terminal.ansiBrightWhite": "#ffffff",
+            "window.activeBorder": "#ff0000",
+            "window.inactiveBorder": "#0000ff"
         },
         "editor.tokenColorCustomizations": {
             "comments": "#7a88cf", // Comment color
